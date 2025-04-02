@@ -16,5 +16,152 @@ h1,h2,h3,h4,h5,h6 {
 }
 body {
 margin: 0;
+font-family: 'Roboto' sans-serif;
 
 }
+a {
+text-decoration: none;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+}
+
+.menu_h3 {
+color: #000000;
+font-size: 15px;
+width: 47px;
+height: 18px;
+font-family: 'Roboto' sans-serif;
+font-weight: 300;
+white-space: nowrap;
+}
+span {
+width: 200px;
+height: 18px;
+color: #4F4F4F;
+font-size: 15px;
+font-weight: 100;
+line-height: auto;
+letter-spacing: 0%;
+opacity:100% ;
+}
+.header_team {
+display: flex;
+justify-content: space-between;
+}
+.team-logo {
+padding-top: 51px;
+}
+.logo_h2 {
+width: 173px;
+height: 38px;
+font-size: 32px;
+font-weight: bold;
+line-height: auto;
+letter-spacing: 0%;
+opacity:100% ;
+color: #013878;
+margin-left: 25px;
+}
+.h3_main {
+color: #828282;
+font-weight: 300;
+font-size: 13px;
+line-height: auto;
+letter-spacing: 0%;
+width: 196px;
+height: 15px;
+white-space: nowrap;
+margin-left: 15px;
+}
+
+.nav {
+display: flex;
+list-style: none;
+padding-top: 68px;
+margin-left: -150px;
+}
+.li {
+margin-right: 30px;
+width: 89px;
+height: 19px;
+
+}
+.btn {
+margin-top: 52px;
+margin-right: -120px;
+}
+.btn-1 {
+width: 182px;
+height: 48px;
+background-color: #FF4D00;
+
+}
+.btn_h3 {
+color: #FFFFFF;
+font-family: 'Roboto' sans-serif;
+line-height: 150%;
+letter-spacing: 0%;
+font-size: 16px;
+width: 134px;
+height: 24px;
+white-space: nowrap;
+padding-left: 10px;
+}
+.main {
+background-color:#F2F2F2 ;
+height: 394px;
+margin-top: 30px;
+}
+.text_h1 {
+padding-top: 50px;
+text-align: center;
+padding-bottom: 50px;
+}
+.main_grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+}
+
+.icon {
+width: 50px;
+height: 50px;
+margin-bottom: 20px;
+margin-left: 100px;
+}
+.main_h2 {
+width: 270px;
+height: 42px;
+font-family: 'Roboto' sans-serif;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main_p {
+width: 269px;
+height: 80px;
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0%;
+color: #828282;
+text-align: center;
+}
+.main_p_1 {
+width: 269px;
+height: 60px;
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0%;
+color: #828282;
+text-align: center;
+}
+
+
+
